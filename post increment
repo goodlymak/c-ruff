@@ -1,0 +1,19 @@
+// Author:Mukadam Umar Ahmed
+// Date:02\09\2022
+//program:pre increment
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int age,age2;
+    printf("enter your age=");
+scanf("%d",&age);
+age2 = age++;
+printf("your age in next year %d",age2 );
+printf("\n");
+printf ("your currunt age %d",age );
+
+
+    return 0;
+}
