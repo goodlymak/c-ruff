@@ -1,19 +1,23 @@
-// Author:Mukadam Umar Ahmed
+// Author:Mukadam Umar Ahmed                                                                                                                      
 // Date:02\09\2022
-//program:pre increment
+//program:pre increment         
 
-#include <stdio.h>
+#include <stdio.h>                                                                                
 
 int main() {
-    // Write C code here
-    int age,age2;
-    printf("enter your age=");
+// Write C code here
+int age,age2;
+printf("enter your age=");
 scanf("%d",&age);
 age2 = age++;
-printf("your age in next year %d",age2 );
+printf("your age in next year %d",age );
 printf("\n");
-printf ("your currunt age %d",age );
+printf ("your currunt age %d",age2 );
 
 
     return 0;
 }
+
+enter your age=30
+your age in next year 30
+your currunt age 31
