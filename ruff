@@ -1,0 +1,26 @@
+/* 
+Author:Mukadam Umar Ahmed.
+Date: 30-09-2022.
+program:verry password
+*/
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b ;
+   const int c=500;
+    printf("enetr  password= ");
+    scanf("%d",&a);
+    printf("renetr password= ");
+    scanf("%d",&b);
+        if (a == b)
+        {
+        printf("your amount is %d",c );
+        }
+            else 
+            {
+            printf("you'r not elegible for link");
+            }
+            return 0;
+    }
