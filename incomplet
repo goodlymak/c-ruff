@@ -1,0 +1,28 @@
+/* 
+Author:Mukadam Umar Ahmed.
+Date: 30-09-2022.
+program:find greater number
+*/
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b ;
+    int c ;
+    printf("enetr number a= ");
+    scanf("%d",&a);
+    printf("enetr number b");
+     scanf("%d",&b);
+    printf("enetr number c");
+     scanf("%d",&c);
+     if ("a>b")
+     { 
+         printf("a is greater " );
+     }
+     else if ("b>c");
+      printf("b is greater");
+      else if ()
+      
+     return 0;
+}
